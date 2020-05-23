@@ -1,0 +1,28 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-toptips": "/miniprogram_npm/weui-miniprogram/toptips/toptips",
+    "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells",
+    "mp-cell": "/miniprogram_npm/weui-miniprogram/cell/cell",
+    "mp-checkbox": "/miniprogram_npm/weui-miniprogram/checkbox/checkbox",
+    "mp-checkbox-group": "/miniprogram_npm/weui-miniprogram/checkbox-group/checkbox-group",
+    "mp-form": "/miniprogram_npm/weui-miniprogram/form/form"
+  },
+  "tabBar": {
+    "selectedColor": "#2ec613",
+    "list": [
+      {
+        "pagePath": "pages/todo-list/todo-list",
+        "text": "Todo",
+        "iconPath": "icons/select-0.png",
+        "selectedIconPath": "icons/select-1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Done",
+        "iconPath": "icons/list-0.png",
+        "selectedIconPath": "icons/list-1.png"
+      }
+    ]
+  }
+}

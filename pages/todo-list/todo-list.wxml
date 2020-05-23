@@ -1,0 +1,15 @@
+<!--pages/todo-list/todo-list.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view>{{this.util.formatTime(this.data.todoList[0].create_time)}}</view>
+    <mp-cells title="我们的 TODOs">
+      <!-- <mp-checkbox-group prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
+        <mp-checkbox wx:for="{{todoList}}" wx:key="value" label="{{item.thing}}" value="{{item._id}}" checked="{{item.isFinished}}">
+        </mp-checkbox>
+      </mp-checkbox-group> -->
+      <mp-cell wx:for="{{todoList}}" wx:key="value" value="{{item.thing}}" footer="添加于{{item.create_time}}">
+        <image slot="icon" src="{{item.photo}}" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mp-cell>
+    </mp-cells>
+  </view>
+</view>

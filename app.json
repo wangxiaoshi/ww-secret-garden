@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/todo-list/todo-list",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "猛男和小媳妇的秘密花园",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#2ec613",
+    "list": [
+      {
+        "pagePath": "pages/todo-list/todo-list",
+        "text": "Todo",
+        "iconPath": "icons/select-0.png",
+        "selectedIconPath": "icons/select-1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Done",
+        "iconPath": "icons/list-0.png",
+        "selectedIconPath": "icons/list-1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {}
+}
